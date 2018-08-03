@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e260431-9f1f-473c-a42b-5373eac94bac" name="Default" comment="" />
+    <list default="true" id="4e260431-9f1f-473c-a42b-5373eac94bac" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/test/java/dubbo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/target/classes/dubbo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/target/classes/dubbo/TestRedis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/target/test-classes/dubbo/AppTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-rabbitmq-service/target/" />
@@ -34,43 +43,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
+        <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-189">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/dto/User.java">
+      <file leaf-file-name="TestRedis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rabbitQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/rabbitQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMsg.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +75,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../rabbit" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="redis" />
@@ -135,7 +120,6 @@
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/mq/application.properties" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java" />
@@ -149,6 +133,7 @@
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/ValidatorUtils.java" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/IdCardValitor.java" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" />
       </list>
     </option>
   </component>
@@ -183,7 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,12 +176,83 @@
               <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
               <item name="rabbit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-rabbitmq-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-rabbitmq-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-rabbitmq-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="redis" type="cbb8eebc:String" user="redis" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,17 +273,17 @@
     <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rabbit\dubbo-rabbitmq-service\src\main\resources\dubbo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="dubbo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\rabbit\dubbo-rabbitmq-consumer\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dubbo.rabbitmq" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rabbit\dubbo-rabbitmq-service\src\main\resources\dubbo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rabbit\dubbo-rabbitmq-consumer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,10 +298,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StartMain">
+  <component name="RunManager" selected="Application.TestRedis">
     <configuration name="IdCardValitorImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dubbo.valitor.impl.IdCardValitorImpl" />
-      <module name="dubborabbitmqservice" />
+      <module name="dubbo-rabbitmq-consumer" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -256,7 +312,7 @@
     </configuration>
     <configuration name="StartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dubbo.StartMain" />
-      <module name="dubborabbitmqservice" />
+      <module name="dubbo-rabbitmq-service" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
     <configuration name="TestRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -492,10 +548,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRedis" />
         <item itemvalue="Application.StartMain" />
         <item itemvalue="Spring Boot.StartMain" />
         <item itemvalue="Application.IdCardValitorImpl" />
-        <item itemvalue="Application.TestRedis" />
       </list>
     </recent_temporary>
   </component>
@@ -527,11 +583,13 @@
       <workItem from="1533119793996" duration="419000" />
       <workItem from="1533178815701" duration="4408000" />
       <workItem from="1533194695952" duration="432000" />
+      <workItem from="1533196267951" duration="944000" />
+      <workItem from="1533265700341" duration="11443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67238000" />
+    <option name="totallyTimeSpent" value="79625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,37 +605,37 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.75101054" side_tool="true" weight="0.18691589" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.75101054" side_tool="true" weight="0.18691589" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32983023" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
+      <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.23201293" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7914309" weight="0.07677902" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.23220974" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32958803" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.2489895" visible="true" weight="0.23220974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80598223" weight="0.29213482" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.04868914" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32958803" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.2489895" weight="0.23595506" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80598223" visible="true" weight="0.16479401" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.7194826" weight="0.22659177" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32958803" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14632174" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.48501873" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32958803" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.13338722" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="6" sideWeight="0.50187266" side_tool="true" weight="0.23201293" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5730337" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.23220974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,269 +670,196 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/mq/application.properties">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/mq/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/MsgService.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/MsgService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-common.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-common.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/rabbitQueue.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/rabbitQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/java/com/bsb/DubboService.java" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/resources/dubbo-api" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsb/DubboService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dubbo-api" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/java/com/bsb/DubboService.java" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/resources/dubbo-api" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsb/DubboService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dubbo-api" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/resources/dubbo-api" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/src/main/java/com/bsb/DubboService.java" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/java/dubbo/App.java" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/test/java/dubbo/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/mq/mq-server.xml" />
-    <entry file="file://$PROJECT_DIR$/../rabbit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1555">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dubbo-api" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsb/DubboService.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/App.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/test/java/dubbo/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/mq/mq-server.xml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/resources/mq/application.properties">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/mq/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-common.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-common.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-common.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-common.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/dubbo/dubbo-consumer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/resources/mq/application.properties">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/mq/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/redis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/redis/src/main/java/dubbo/TestRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
           <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="34" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/MsgService.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/MsgService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/StartMain.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/StartMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/StartMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/IdCardValitor.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/IdCardValitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
@@ -895,37 +880,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/ValidatorUtils.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/impl/IdCardValitorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="306">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/rabbitQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#newQueue#0;class#rabbitQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/ValidatorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
           <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/rabbitQueue.java">
+    <entry file="file://$PROJECT_DIR$/redis/src/test/java/dubbo/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="169">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/valitor/impl/IdCardValitorImpl.java">
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rabbit/dubbo-rabbitmq-service/src/main/java/dubbo/SendMsg.java">
+    <entry file="file://$PROJECT_DIR$/redis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="54">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/net/SocksSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="391" column="18" selection-start-line="391" selection-start-column="18" selection-end-line="391" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/java/dubbo/rabbitmq/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

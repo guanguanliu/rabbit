@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-rabbitmq-consumer" />
+        <module name="dubbo-rabbitmq-service" />
         <module name="dubborabbitmqconsumer" />
         <module name="dubborabbitmqservice" />
         <module name="redis" />
