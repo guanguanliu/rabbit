@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e260431-9f1f-473c-a42b-5373eac94bac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/MsgService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/SendMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/StartMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/dto/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/impl/MsgServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/rabbitQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/valitor/IdCardValitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/valitor/ValidatorUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-rabbitmq-service/target/classes/dubbo/valitor/impl/IdCardValitorImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/test/java/dubbo/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/classes/dubbo/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/classes/dubbo/TestRedis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/test-classes/dubbo/AppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +57,8 @@
       <file leaf-file-name="TestRedis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="172">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -584,12 +587,20 @@
       <workItem from="1533178815701" duration="4408000" />
       <workItem from="1533194695952" duration="432000" />
       <workItem from="1533196267951" duration="944000" />
-      <workItem from="1533265700341" duration="11443000" />
+      <workItem from="1533265700341" duration="13597000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1533287953325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533287953325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79625000" />
+    <option name="totallyTimeSpent" value="81779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,13 +627,13 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7914309" weight="0.07677902" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.23220974" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.04868914" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.52059925" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32958803" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.2489895" weight="0.23595506" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80598223" visible="true" weight="0.16479401" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.2489895" weight="0.17228465" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80598223" visible="true" weight="0.12546816" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.7194826" weight="0.22659177" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32958803" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.13338722" />
@@ -671,7 +682,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -977,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestRedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="172">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
