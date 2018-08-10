@@ -8,8 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-rabbitmq-consumer" />
         <module name="dubbo-rabbitmq-service" />
-        <module name="dubborabbitmqconsumer" />
-        <module name="dubborabbitmqservice" />
         <module name="redis" />
       </profile>
     </annotationProcessing>

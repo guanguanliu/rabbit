@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author gaun
+ * @author guan
  * @ClassName TestRedis
  * @Description TODO(redis各种类型的基本存储)
  * @Date 2018-08-03 14:45
