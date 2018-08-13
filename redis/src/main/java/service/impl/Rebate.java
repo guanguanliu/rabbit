@@ -5,19 +5,15 @@ import service.DisCount;
 /**
  * @author guan
  * @ClassName Rebate
- * @Description TODO(这里用一句话描述这个类的作用)
+ * @Description TODO(打折)
  * @Date 2018-08-13 11:36
  */
 public class Rebate implements DisCount {
 
+    //折扣。默认不打折
     private double rebateMoney = 1;
 
-    public double getRebateMoney() {
-        return rebateMoney;
-    }
-
-    public void setRebateMoney(double rebateMoney) {
-        this.rebateMoney = rebateMoney;
+    public Rebate() {
     }
 
     public Rebate(double rebateMoney) {

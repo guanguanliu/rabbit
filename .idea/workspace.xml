@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e260431-9f1f-473c-a42b-5373eac94bac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/service/DisCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/OperateMinus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/DisCountContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/dubbo/TestFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/service/OperateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/service/OperateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/service/impl/OperateAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/OperateAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,80 +39,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Format.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/Format.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="47" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/DisCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rebate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding>
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FullSubtraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="297">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rebate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisCountContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/DisCountContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-58">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestStrategy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/java/dubbo/impl/MsgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-common.xml" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-service/src/main/resources/dubbo/dubbo-service.xml" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-rabbitmq-consumer/src/main/resources/dubbo/rabbit/dubbo-consumer.xml" />
@@ -200,8 +163,10 @@
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis/src/main/java/dubbo/Format.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/service/DisCount.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/service/impl/DisCountContext.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java" />
         <option value="$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java" />
+        <option value="$PROJECT_DIR$/redis/src/main/java/dubbo/TestStrategy.java" />
       </list>
     </option>
   </component>
@@ -287,16 +252,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rabbit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -359,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Format">
+  <component name="RunManager" selected="Application.TestStrategy">
     <configuration name="Format" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dubbo.Format" />
       <module name="redis" />
@@ -400,6 +355,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="TestStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dubbo.TestStrategy" />
+      <module name="redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -418,16 +384,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="StartMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="dubborabbitmqconsumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dubbo.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="dubbo.rabbitmq.StartMain" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -615,17 +571,17 @@
     <list>
       <item itemvalue="Application.StartMain" />
       <item itemvalue="Application.TestRedis" />
-      <item itemvalue="Spring Boot.StartMain" />
       <item itemvalue="Application.Format" />
       <item itemvalue="Application.TestFactory" />
+      <item itemvalue="Application.TestStrategy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStrategy" />
         <item itemvalue="Application.Format" />
         <item itemvalue="Application.TestFactory" />
         <item itemvalue="Application.TestRedis" />
         <item itemvalue="Application.StartMain" />
-        <item itemvalue="Spring Boot.StartMain" />
       </list>
     </recent_temporary>
   </component>
@@ -663,7 +619,7 @@
       <workItem from="1533777518966" duration="1835000" />
       <workItem from="1533785880611" duration="7239000" />
       <workItem from="1533863397921" duration="6729000" />
-      <workItem from="1534126845153" duration="4309000" />
+      <workItem from="1534126845153" duration="6861000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1533287953325</created>
@@ -693,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533865619361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="策略模式">
+      <created>1534132384302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534132384302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104629000" />
+    <option name="totallyTimeSpent" value="107181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,7 +693,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32958803" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.2489895" weight="0.37265918" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80598223" visible="true" weight="0.1423221" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80598223" visible="true" weight="0.26217228" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.7194826" weight="0.22659177" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32958803" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.23282135" />
@@ -815,7 +778,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,8 +787,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bsb/DubboService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dubbo-api" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1023,6 +985,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-351">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,6 +995,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,6 +1012,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,16 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1080,8 +1042,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/Format.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="540">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1098,29 +1070,47 @@
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/DisCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/FullSubtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="297">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/Rebate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="324">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/service/impl/DisCountContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/dubbo/TestStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
