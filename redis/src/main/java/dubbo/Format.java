@@ -1,6 +1,6 @@
 package dubbo;
 
-import com.alibaba.fastjson.JSON;
+import com.smy.framework.core.util.DateUtil;
 import dto.DateTest;
 
 import java.util.Date;
@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * @author guanguan
  * @ClassName Format
- * @Description TODO(这里用一句话描述这个类的作用)
+ * @Description TODO(测试)
  * @Date 2018-08-08 14:58
  */
 public class Format {
@@ -19,10 +19,8 @@ public class Format {
 
         DateTest dateTest = new DateTest();
         dateTest.setDate(date);
+        System.out.println(DateUtil.date2String(date));
 
-        String strDate = JSON.toJSONStringWithDateFormat(dateTest.getDate(),"yyyyMMdd");
-
-        System.out.println(strDate);
     }
 
 }

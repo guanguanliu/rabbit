@@ -5,7 +5,7 @@ import service.Operate;
 /**
  * @author guan
  * @ClassName OperateAdd
- * @Description TODO(这里用一句话描述这个类的作用)
+ * @Description TODO(实现加法运算)
  * @Date 2018-08-10 9:21
  */
 public class OperateAdd implements Operate {
