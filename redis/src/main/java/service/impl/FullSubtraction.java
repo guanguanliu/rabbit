@@ -3,8 +3,8 @@ package service.impl;
 import service.DisCount;
 
 /**
- * @author
- * @ClassName
+ * @author guanshaojuan
+ * @ClassName FullSubtraction
  * @Description TODO(满减)
  * @Date 2018-08-13 11:42
  */

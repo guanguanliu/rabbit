@@ -11,6 +11,7 @@
     <module>dubbo-rabbitmq-service</module>
     <module>dubbo-rabbitmq-consumer</module>
       <module>redis</module>
+      <module>event</module>
   </modules>
   <packaging>pom</packaging>
 
