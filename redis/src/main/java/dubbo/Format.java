@@ -1,10 +1,5 @@
 package dubbo;
 
-import com.smy.framework.core.util.DateUtil;
-import dto.DateTest;
-
-import java.util.Date;
-
 /**
  * @author guanguan
  * @ClassName Format
@@ -14,12 +9,16 @@ import java.util.Date;
 public class Format {
     public static void main(String[] args) {
 
-        Date date = new Date();
-        System.out.println(date);
+        Singleton singleton1 = Singleton.getInstance();
+        Singleton singleton2 = Singleton.getInstance();
+//        Singleton singleton3 = Singleton.getInstance();
+//        Singleton singleton4 = Singleton.getInstance();
 
-        DateTest dateTest = new DateTest();
-        dateTest.setDate(date);
-        System.out.println(DateUtil.date2String(date));
+        if (singleton1 == singleton2 ){
+            System.out.println("全部都是一个实例");
+        }else{
+            System.out.println("不是一个实例");
+        }
 
     }
 
