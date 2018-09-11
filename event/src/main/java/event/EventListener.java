@@ -11,10 +11,10 @@ public class EventListener implements IListener {
     public void doSomething(Event event) {
         switch (event.getEvent()) {
             case "qianShou":
-                System.out.println("恋爱四部曲，第一" + event.getDesc());
+                System.out.println("恋爱四部曲，第二" + event.getDesc());
                 break;
             case "gaoBai":
-                System.out.println("恋爱四部曲，第二" + event.getDesc());
+                System.out.println("恋爱四部曲，第一" + event.getDesc());
                 break;
             case "lianAi":
                 System.out.println("恋爱四部曲，第三" + event.getDesc());

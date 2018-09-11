@@ -8,8 +8,9 @@ package event;
  */
 public enum Event {
 
-    GAOBAI("gaoBai", "告白"),
+
     QIANSHOU("qianShou", "牵手"),
+    GAOBAI("gaoBai", "告白"),
     LIANAI("lianAi", "恋爱"),
     JIEHUN("jieHun", "结婚");
 
