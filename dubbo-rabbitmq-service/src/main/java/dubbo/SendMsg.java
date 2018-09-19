@@ -1,7 +1,6 @@
 package dubbo;
 
 import dubbo.dto.User;
-import dubbo.valitor.ValidatorUtils;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,12 +23,12 @@ public class SendMsg {
         user.setGender("男");
         user.setName("罐罐");
 
-       // user.setIdCard("140495121580682719");
+        user.setIdCard("140495121580682719");
 
-        ValidatorUtils.validate(user);
+        //ValidatorUtils.validate(user);
         //channel.basicPublish("fanout",rabbitQueue,false,);
         //String msg = "兰兰";
-        amqpTemplate.convertAndSend("rabbit",user);
+        amqpTemplate.convertAndSend("queue",user);
     }
 
     @RequestMapping("/sendAgain")

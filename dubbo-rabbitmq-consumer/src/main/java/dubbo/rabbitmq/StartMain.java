@@ -3,12 +3,14 @@ package dubbo.rabbitmq;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
 import java.util.Scanner;
 
 @SpringBootApplication
-@ImportResource({"classpath:dubbo/*.xml"})
+@ImportResource({"classpath:dubbo/*.xml","classpath:mq/*.xml"})
+@ComponentScan(basePackages = "dubbo.rabbitmq")
 public class StartMain {
 
     public static void main(String[] args){

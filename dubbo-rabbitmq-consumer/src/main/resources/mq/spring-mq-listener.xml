@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <rabbit:queue id="queue" name="queue" durable="true" auto-delete="false"/>
+
+    <rabbit:listener-container acknowledge="manual" connection-factory="connectionFactory">
+        <rabbit:listener ref="simpleListener" queues="queue"/>
+    </rabbit:listener-container>
+    <rabbit:connection-factory id="connectionFactory"
+                               host="localhost"
+                               username="guest"
+                               password="guest"
+                               port="5672"
+                               publisher-confirms="true"/>
+    <rabbit:admin id="rabbitAdmin" connection-factory="connectionFactory"/>
+</beans>
